@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Alexa Janathon",
+      "range": "Faculty",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp"
+    },
+    {
+      "id": 2,
+      "name": "Janathon Smith",
+      "range": "Faculty",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp"
+    },
+    {
+      "id": 3,
+      "name": "Janathon Smith",
+      "range": "Faculty",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp"
+    },
+    {
+      "id": 4,
+      "name": "Janathon Smith",
+      "range": "Faculty",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp"
+    },
+    {
+        "id": 5,
+        "name": "Janathon Smith",
+        "range": "Faculty",
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp"
+    },
+    {
+        "id": 6,
+        "name": "Janathon Smith",
+        "range": "Faculty",
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp"
+    },
+    {
+      "id": 8,
+      "name": "Alexa Janathon",
+      "range": "Faculty",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp"
+    },
+    {
+        "id": 7,
+        "name": "Janathon Smith",
+        "range": "Faculty",
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp"
+    }
+]

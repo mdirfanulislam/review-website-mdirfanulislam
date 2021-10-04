@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Web Design",
+    "describe": "Its a Web Design course for enyone. This is a full stack Web Design course."
+  },
+  {
+    "id": 2,
+    "name": "App Development",
+    "describe": "Its a App Development course for enyone. This is a full stack App Development course"
+  },
+  {
+    "id": 3,
+    "name": "Video Editing",
+    "describe": "Its a Video Editing course for enyone. This is a full stack Video Editing course"
+  },
+  {
+    "id": 4,
+    "name": "Digital Marketing",
+    "describe": "Its a Digital Marketing course for enyone. This is a full stack Digital Marketing course"
+  },
+  {
+    "id": 5,
+    "name": "Seo Marketing",
+    "describe": "Its a Seo Marketing course for enyone. This is a full stack Seo Marketing course"
+  },
+  {
+    "id": 6,
+    "name": "Content Writing",
+    "describe": "Its a Content Writing course for enyone. This is a full stack Content Writing course"
+  }
+]

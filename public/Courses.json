@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "name": "Graphic Design",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub1.png.pagespeed.ic.5HRkRcL9IM.webp"
+    },
+    {
+      "id": 2,
+      "name": "Web Development",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub2.png.pagespeed.ic.lPacsWzJCk.webp"
+    },
+    {
+      "id": 3,
+      "name": "Digital Marketing",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub3.png.pagespeed.ic.Zzt8hGMkws.webp"
+    },
+    {
+      "id": 4,
+      "name": "Web Design",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub2.png.pagespeed.ic.lPacsWzJCk.webp"
+    },
+    {
+      "id": 5,
+      "name": "Video Editing",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub3.png.pagespeed.ic.Zzt8hGMkws.webp"
+    },
+    {
+      "id": 6,
+      "name": "Content Writing",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub1.png.pagespeed.ic.5HRkRcL9IM.webp"
+    },
+    {
+      "id": 7,
+      "name": "Seo Marketing",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub3.png.pagespeed.ic.Zzt8hGMkws.webp"
+    },
+    {
+      "id": 8,
+      "name": "App Development",
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xpopular_sub2.png.pagespeed.ic.lPacsWzJCk.webp"
+    }
+  ]
