@@ -1,5 +1,5 @@
 # Project Name
-Online-Education
+Online-Skill-Development
 
 # Site Name
 Skill-Develop-Courses
