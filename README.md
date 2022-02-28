@@ -1,8 +1,12 @@
 # Project Name
-Online-Education
+Online-Skill-Development
 
 # Site Name
 Skill-Develop-Courses
+
+# Live Site
+https://epic-clarke-4262b4.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
