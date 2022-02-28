@@ -3,12 +3,14 @@
       "id": 1,
       "name": "Alexa Janathon",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp",
+      "dataAos": "fade-down"
     },
     {
       "id": 2,
       "name": "Janathon Smith",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp",
+      "dataAos": "fade-up"
     }
   ]

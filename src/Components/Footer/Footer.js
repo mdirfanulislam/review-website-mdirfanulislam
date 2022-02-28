@@ -5,16 +5,22 @@ import { fab, faFacebookSquare, faGoogle, faInstagramSquare, faTwitterSquare, fa
 import { FormControl, InputGroup, Row } from 'react-bootstrap';
 import Button from '@restart/ui/esm/Button';
 import { faIdCard } from '@fortawesome/free-solid-svg-icons';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Footer = () => {
-    library.add(fab, faFacebookSquare, faTwitterSquare, faInstagramSquare, faYoutubeSquare, faGoogle, faIdCard)
+    library.add(fab, faFacebookSquare, faTwitterSquare, faInstagramSquare, faYoutubeSquare, faGoogle, faIdCard);
+
+    AOS.init({
+        duration: 1200,
+      });
 
     return (
-        <div className=" bg-primary p-5">
+        <div data-aos="fade-up" className=" bg-primary p-5">
             <Row xs={1} md={2}>
             <div>
                 <h2 className="text-white">Stay Updated</h2>
-                <InputGroup className="mb-3 mx-5">
+                <InputGroup className="mb-3">
                 <FormControl
                     placeholder="Email Eddress"
                     aria-label="Recipient's username"
@@ -43,7 +49,7 @@ const Footer = () => {
             </div>
             <div className="">
                 <h2 className="text-white">Let's Get Social</h2>
-                <Row xs={5} md={5} className="mx-5">
+                <Row xs={5} md={5} className="mx-3">
                 <h1><FontAwesomeIcon icon={faFacebookSquare} /></h1>
                 <h1><FontAwesomeIcon icon={faTwitterSquare} /></h1>
                 <h1><FontAwesomeIcon icon={faGoogle} /></h1>
@@ -70,10 +76,8 @@ const Footer = () => {
                 </Row>
             </div>
         </Row>
-                <div className="justify-content-center bg-dark fw-bold text-white p-4 mt-2 mx-5">
-                    <p>Copyright ©2021 All rights reserved | This template is made with <FontAwesomeIcon icon={faIdCard} /> Md Irfan
-                    </p>
-                </div>
+                <p className="justify-content-center bg-dark fw-bold text-white py-4 mt-2">Copyright ©2022 All rights reserved |madee by <FontAwesomeIcon icon={faIdCard} /> Md Irfan
+                </p>
         </div>
     );
 };

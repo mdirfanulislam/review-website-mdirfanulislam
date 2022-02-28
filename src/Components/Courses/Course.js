@@ -4,13 +4,20 @@ import { faHeart, faStar, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { Card, Col, Row } from 'react-bootstrap';
 import Button from '@restart/ui/esm/Button';
 import { Link } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Course = (props) => {
     const element = <FontAwesomeIcon icon={faStar} />
-    const {name, img} = props.course;
+    const {name, img, dataAos} = props.course;
+
+    AOS.init({
+        duration: 1200,
+      });
+
     return (
         <div>                                                               
-        <Col>
+        <Col data-aos={dataAos}>
             <Card>
                 <Card.Img variant="top" src={img} />
                     <Card.Body>
@@ -32,7 +39,7 @@ const Course = (props) => {
                 </div>
                 <p className="text-secondary mt-4">Free</p>
                 </Row>
-                <Button className="border border-1 border-info bg-primary px-5 py-2 fs-5 fw-bold mb-2 mt-4">
+                <Button className="border border-1 rounded-circle border-info bg-primary px-5 py-2 fs-5 fw-bold mb-2 mt-4">
                 <Link className="text-decoration-none text-white" to="/courses">Enroll Now</Link>
             </Button>
                 </Card.Body>

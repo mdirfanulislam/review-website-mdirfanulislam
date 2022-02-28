@@ -13,7 +13,7 @@ const Instractor = () => {
 
     return (
         <div>
-            <div className="bg-info p-5 mb-5">
+            <div className="bg-info p-5 mb-5 mt-5">
                 <h1 className="bg-info p-5 fs-1 fw-bold text-white">Instrutors</h1>
             </div>
             <div className="m-5">

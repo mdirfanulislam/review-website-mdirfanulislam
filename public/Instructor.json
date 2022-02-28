@@ -3,48 +3,56 @@
       "id": 1,
       "name": "Alexa Janathon",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp",
+      "dataAos": "zoom-in-down"
     },
     {
       "id": 2,
       "name": "Janathon Smith",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp",
+      "dataAos": "zoom-in-down"
     },
     {
       "id": 3,
       "name": "Janathon Smith",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp",
+      "dataAos": "zoom-in-down"
     },
     {
       "id": 4,
       "name": "Janathon Smith",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp",
+      "dataAos": "zoom-in-down"
     },
     {
         "id": 5,
         "name": "Janathon Smith",
         "range": "Faculty",
-        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp"
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam2.png.pagespeed.ic.DkAYUTIFKv.webp",
+        "dataAos": "zoom-in-up"
     },
     {
         "id": 6,
         "name": "Janathon Smith",
         "range": "Faculty",
-        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp"
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam1.png.pagespeed.ic.XP8FuCEpbp.webp",
+        "dataAos": "zoom-in-up"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Alexa Janathon",
       "range": "Faculty",
-      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp"
+      "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam4.png.pagespeed.ic.klxTBb6pMG.webp",
+      "dataAos": "zoom-in-up"
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Janathon Smith",
         "range": "Faculty",
-        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp"
+        "img": "https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xteam3.png.pagespeed.ic.ZjKltUw-pd.webp",
+        "dataAos": "zoom-in-up"
     }
 ]

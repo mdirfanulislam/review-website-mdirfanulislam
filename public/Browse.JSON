@@ -2,31 +2,37 @@
   {
     "id": 1,
     "name": "Web Design",
-    "describe": "Its a Web Design course for enyone. This is a full stack Web Design course."
+    "describe": "Its a Web Design course for enyone. This is a full stack Web Design course.",
+    "dataAos": "fade-down"
   },
   {
     "id": 2,
     "name": "App Development",
-    "describe": "Its a App Development course for enyone. This is a full stack App Development course"
+    "describe": "Its a App Development course for enyone. This is a full stack App Development course",
+    "dataAos": "fade-down"
   },
   {
     "id": 3,
     "name": "Video Editing",
-    "describe": "Its a Video Editing course for enyone. This is a full stack Video Editing course"
+    "describe": "Its a Video Editing course for enyone. This is a full stack Video Editing course",
+    "dataAos": "fade-down"
   },
   {
     "id": 4,
     "name": "Digital Marketing",
-    "describe": "Its a Digital Marketing course for enyone. This is a full stack Digital Marketing course"
+    "describe": "Its a Digital Marketing course for enyone. This is a full stack Digital Marketing course",
+    "dataAos": "fade-up"
   },
   {
     "id": 5,
     "name": "Seo Marketing",
-    "describe": "Its a Seo Marketing course for enyone. This is a full stack Seo Marketing course"
+    "describe": "Its a Seo Marketing course for enyone. This is a full stack Seo Marketing course",
+    "dataAos": "fade-up"
   },
   {
     "id": 6,
     "name": "Content Writing",
-    "describe": "Its a Content Writing course for enyone. This is a full stack Content Writing course"
+    "describe": "Its a Content Writing course for enyone. This is a full stack Content Writing course",
+    "dataAos": "fade-up"
   }
 ]

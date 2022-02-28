@@ -1,10 +1,17 @@
 import { Card, Col } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Teacher = (props) => {
-    const {name, img, range} = props.teacher;
+    const {name, img, range, dataAos} = props.teacher;
+
+    AOS.init({
+        duration: 1200,
+      });
+
     return (
         <div>
-            <Col>
+            <Col data-aos={dataAos}>
             <Card className="mx-5 pb-4">
                 <Card.Img src={img} />
                 <Card.Body>
