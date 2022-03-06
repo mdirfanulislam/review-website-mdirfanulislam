@@ -58,7 +58,6 @@ const AboutMe = () => {
             <div data-aos="fade-down" className="mt-5">
                 <img width="320px" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.OSu4ZWGT0Q.webp'} alt="" />
             </div>
-            
             </Row>
             </Container>
 

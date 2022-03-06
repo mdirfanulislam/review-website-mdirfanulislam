@@ -90,26 +90,22 @@ const Home = () => {
 
             <Container fluid>
             <Row xs={1} md={1} lg={3}>
-            <div data-aos="fade-down" className="mt-5  mb-5 pb-5">
-                <img src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.6xSE4VgknV.webp'} alt="" />
+            <div data-aos="fade-down" className="mt-5  mb-5 pb-">
+                <img width="320px" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.6xSE4VgknV.webp'} alt="" />
             </div>
             <div data-aos="fade-up" className="mt-5">
                 <h6 className="fw-bold text-info pt-5">More About Our Company</h6>
-                <h2 className="fs-1 fw-bold mb-5">Want to know more</h2> 
+                <h2 className="fs- fw-bold mb-5">Want to know more</h2> 
                 <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
                 <br />
                 <p>Creative ideas base</p>
                 <p>Assages of sorem gpsum ilable</p>
                 <p>Have suffered alteration in so</p>
                 <p>Randomised words whi</p>
-                <Button className="border border-1 rounded-circle border-info bg-primary px-3 py-2 fs-5 fw-bold mt-3">
-                <Link className="text-decoration-none text-white" to="/aboutus">More About Us</Link>
-            </Button>
             </div>
             <div data-aos="fade-down" className="mt-5">
-                <img src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.OSu4ZWGT0Q.webp'} alt="" />
+                <img width="320px" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.OSu4ZWGT0Q.webp'} alt="" />
             </div>
-            
             </Row>
             </Container>
 
