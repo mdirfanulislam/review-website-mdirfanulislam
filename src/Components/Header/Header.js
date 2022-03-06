@@ -1,11 +1,13 @@
 import React from 'react';
-import { Container, Nav } from 'react-bootstrap';
+import { Button, Container, Nav } from 'react-bootstrap';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import UseAuth from './../../Hooks/UseAuth/UseAuth';
 
 const Header = () => {
+    const { user, logout } = UseAuth();
     AOS.init({
         duration: 1200,
       });
@@ -22,6 +24,11 @@ const Header = () => {
                 <Link className="pt-3 text-decoration-none text-white" to="/courses">Courses</Link>
                 <Link className="pt-3 text-decoration-none text-white" to="/instractor">Instractor</Link>
                 <Link className="pt-3 text-decoration-none text-white" to="/aboutus">About Us</Link>
+                { user?.email?
+                    <Button onClick={logout} className="pt-3 fw-bold text-black">LogOut</Button>
+                    :
+                    <Link className="pt-3 text-decoration-none text-white" to="/login">Login</Link>
+                }
             </Nav>
             </Navbar.Collapse>
         </Container>

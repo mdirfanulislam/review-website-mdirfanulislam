@@ -2,7 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Row, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Browse from '../Browse/Browse';
 import Teacher from '../Teacher/Teacher';
@@ -31,9 +31,10 @@ const Home = () => {
 
     return (
         <div>
+            <Container fluid>
             <Row data-aos="fade-down" xs={1} md={2} className="align-items-center bg-info pt-5 mb-5 mt-5">
                 <div>
-                    <h6 className="fw-bold">Proper Online Courses</h6>
+                    <h6 className="fw-bold">Proper Online Courses</h6> 
                     <h1 className="fs-1 mx-5 mt-4 mb-5 fw-bold">The New Way To Learn Properly With Us!</h1>
                     <Button className="border border-1 rounded-circle border-info bg-primary px-5 py-2 fs-5 fw-bold mb-5">
                     <Link className="text-decoration-none text-white" to="/courses">Get Started</Link>
@@ -43,6 +44,7 @@ const Home = () => {
                     <img className="img-fluid me-" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/hero/xheroman.png.pagespeed.ic.-tVCH9AISL.webp'} alt="" />
                 </div>
             </Row>
+            </Container>
 
 
             <div data-aos="fade-down">
@@ -86,7 +88,7 @@ const Home = () => {
             </div>
             </div>
 
-
+            <Container fluid>
             <Row xs={1} md={1} lg={3}>
             <div data-aos="fade-down" className="mt-5  mb-5 pb-5">
                 <img src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.6xSE4VgknV.webp'} alt="" />
@@ -109,6 +111,7 @@ const Home = () => {
             </div>
             
             </Row>
+            </Container>
 
         </div>
     );

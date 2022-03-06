@@ -76,7 +76,7 @@ const Footer = () => {
                 </Row>
             </div>
         </Row>
-                <p className="justify-content-center bg-dark fw-bold text-white py-4 mt-2">Copyright ©2022 All rights reserved |madee by <FontAwesomeIcon icon={faIdCard} /> Md Irfan
+                <p className="justify-content-center bg-dark fw-bold text-white py-4 mt-2">Copyright ©2022 All rights reserved | made by <FontAwesomeIcon icon={faIdCard} /> Md Irfan
                 </p>
         </div>
     );

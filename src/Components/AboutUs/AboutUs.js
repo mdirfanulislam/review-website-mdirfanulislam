@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -14,11 +14,12 @@ const AboutMe = () => {
 
     return (
         <div>
-            <Row xs={1} md={1}>
+            <Container fluid>
+            <Row xs={1} md={1} lg={1}>
             <div className="bg-info py-5 mb-5 mt-5">
                 <h2 className="bg-info py-5 fs-1 fw-bold text-white">About Us</h2>
             </div>
-            <div className="text-start mx-2">
+            <div className="text-start">
                 <h2 className="mb-4">Our Mission</h2>
                 <p className=" ">Consectetur adipiscing elit, sued do eiusmod tempor ididunt udfgt labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.</p>
                 <p className="mb-5"> Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan.</p>
@@ -39,15 +40,15 @@ const AboutMe = () => {
                 </div>
             </div>  
 
-            <Row xs={1} md={3} className="my-5">
-            <div data-aos="fade-down" className="my-5">
-                <img src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.6xSE4VgknV.webp'} alt="" />
-                
+            <Container fluid>
+            <Row xs={1} md={1} lg={3}>
+            <div data-aos="fade-down" className="mt-5  mb-5 pb-">
+                <img width="320px" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout2.png.pagespeed.ic.6xSE4VgknV.webp'} alt="" />
             </div>
-            <div data-aos="fade-up" className="mt-5 pt-5">
+            <div data-aos="fade-up" className="mt-5">
                 <h6 className="fw-bold text-info pt-5">More About Our Company</h6>
-                <h2 className="fs-1 fw-bold mb-5">Want to know more</h2> 
-                <p className="ps-">There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
+                <h2 className="fs- fw-bold mb-5">Want to know more</h2> 
+                <p>There arge many variations ohf passages of sorem gpsum ilable, but the majority have suffered alteration in some form, by ected humour, or randomised words whi.</p>
                 <br />
                 <p>Creative ideas base</p>
                 <p>Assages of sorem gpsum ilable</p>
@@ -55,10 +56,14 @@ const AboutMe = () => {
                 <p>Randomised words whi</p>
             </div>
             <div data-aos="fade-down" className="mt-5">
-                <img src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.OSu4ZWGT0Q.webp'} alt="" />
-            </div>           
+                <img width="320px" src={'https://preview.colorlib.com/theme/onlineedu/assets/img/gallery/xabout1.png.pagespeed.ic.OSu4ZWGT0Q.webp'} alt="" />
+            </div>
+            
             </Row>
+            </Container>
+
             </Row>
+            </Container>
         </div>
     );
 };
