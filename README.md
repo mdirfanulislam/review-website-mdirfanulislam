@@ -8,7 +8,7 @@ Skill-Develop-Courses
 https://epic-clarke-4262b4.netlify.app/
 
 # Live Site Firebase
-https://epic-clarke-4262b4.netlify.app/
+https://skill-develop-course-full-pro.web.app/
 
 # Github Code Link
 https://github.com/mdirfanulislam/review-website-mdirfanulislam
